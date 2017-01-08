@@ -1,0 +1,1 @@
+c:\projects\altium.test\Sorter\bin\Debug\Sorter.exe.config

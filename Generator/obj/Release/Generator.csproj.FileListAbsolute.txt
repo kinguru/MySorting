@@ -1,0 +1,8 @@
+C:\projects\altium.test\Generator\bin\Release\generator.exe.config
+C:\projects\altium.test\Generator\bin\Release\generator.exe
+C:\projects\altium.test\Generator\bin\Release\generator.pdb
+C:\projects\altium.test\Generator\bin\Release\Config.dll
+C:\projects\altium.test\Generator\bin\Release\Config.pdb
+C:\projects\altium.test\Generator\obj\Release\Generator.csprojResolveAssemblyReference.cache
+C:\projects\altium.test\Generator\obj\Release\generator.exe
+C:\projects\altium.test\Generator\obj\Release\generator.pdb

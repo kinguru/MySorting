@@ -1,0 +1,8 @@
+C:\projects\altium.test\Sorter\bin\Release\Sorter1.exe.config
+C:\projects\altium.test\Sorter\bin\Release\Sorter1.exe
+C:\projects\altium.test\Sorter\bin\Release\Sorter1.pdb
+C:\projects\altium.test\Sorter\bin\Release\Config.dll
+C:\projects\altium.test\Sorter\bin\Release\Config.pdb
+C:\projects\altium.test\Sorter\obj\Release\Sorter.csprojResolveAssemblyReference.cache
+C:\projects\altium.test\Sorter\obj\Release\Sorter1.exe
+C:\projects\altium.test\Sorter\obj\Release\Sorter1.pdb
