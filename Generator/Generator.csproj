@@ -43,11 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IRandomString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RandomString1.cs" />
-    <Compile Include="StaticRandom.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -56,6 +53,10 @@
     <ProjectReference Include="..\Config\Config.csproj">
       <Project>{F72C16B5-0865-495A-94F2-5E7B931B1603}</Project>
       <Name>Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataContract\DataContract.csproj">
+      <Project>{33e6a7f6-6e8c-40c0-ac34-37ff41e64ae6}</Project>
+      <Name>DataContract</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

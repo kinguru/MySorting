@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Config", "Config\Config.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorter", "Sorter\Sorter.csproj", "{7DE56FED-7DE6-46DF-9806-7A189563D920}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContract", "DataContract\DataContract.csproj", "{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{7DE56FED-7DE6-46DF-9806-7A189563D920}.Release|x64.Build.0 = Release|Any CPU
 		{7DE56FED-7DE6-46DF-9806-7A189563D920}.Release|x86.ActiveCfg = Release|Any CPU
 		{7DE56FED-7DE6-46DF-9806-7A189563D920}.Release|x86.Build.0 = Release|Any CPU
+		{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}.Debug|x64.Build.0 = Debug|Any CPU
+		{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}.Debug|x86.Build.0 = Debug|Any CPU
+		{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}.Release|x64.ActiveCfg = Release|Any CPU
+		{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}.Release|x64.Build.0 = Release|Any CPU
+		{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}.Release|x86.ActiveCfg = Release|Any CPU
+		{33E6A7F6-6E8C-40C0-AC34-37FF41E64AE6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,0 @@
-C:\projects\altium.test\generator\Config\bin\Debug\Config.dll
-C:\projects\altium.test\generator\Config\bin\Debug\Config.pdb
-C:\projects\altium.test\generator\Config\obj\Debug\Config.dll
-C:\projects\altium.test\generator\Config\obj\Debug\Config.pdb
-C:\projects\altium.test\generator\Config\obj\Debug\Config.csprojResolveAssemblyReference.cache

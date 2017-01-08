@@ -10,7 +10,7 @@ namespace Altium
     {
         static void Main(string[] args)
         {
-            IRandomString randomStringGenerator = new RandomString1();
+            IDataStructure stringStructure = new StringStructure(Config.predefinedStrings);
 
             // create folder, delete previous files
             ArrangeDirectories();
@@ -24,7 +24,7 @@ namespace Altium
                 Parallel.For(0, Config.GenerateFileParallelism, (i) =>
                 {
                     var fileName = Config.WorkDirectory + @"\" + Guid.NewGuid().ToString();
-                    GenerateFile((long)Config.FileSizeToGenerate / Config.GenerateFileParallelism, fileName, randomStringGenerator);
+                    GenerateFile((long)Config.FileSizeToGenerate / Config.GenerateFileParallelism, fileName, stringStructure);
                     files.Add(fileName);
                 });
                 GC.Collect();
@@ -33,7 +33,7 @@ namespace Altium
                 Console.WriteLine($"Chunks concatenated: {timer.Elapsed}");
             } else
             {
-                GenerateFile(Config.FileSizeToGenerate, Config.SourceFileName, randomStringGenerator);
+                GenerateFile(Config.FileSizeToGenerate, Config.SourceFileName, stringStructure);
             }
 
             // timer stop
@@ -91,14 +91,14 @@ namespace Altium
         /// </summary>
         /// <param name="size">Size in bytes</param>
         /// <param name="fileName">File path</param>
-        static void GenerateFile(long size, string fileName, IRandomString randomStringGenerator)
+        static void GenerateFile(long size, string fileName, IDataStructure dataStructure)
         {
             long generatedFileSize = 0;
             using (var fileStream = new StreamWriter(fileName))
             {
                 while (generatedFileSize < size)
                 {
-                    var rndDataString = randomStringGenerator.GetRandomString();
+                    var rndDataString = dataStructure.GetRandomData();
 
                     // write to file
                     generatedFileSize += rndDataString.Length;

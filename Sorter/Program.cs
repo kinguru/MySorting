@@ -18,7 +18,7 @@ namespace Altium
         {
             // init data comparer here
             // TODO: move to DI injector if need
-            var comparer = new CustomComparer();
+            IDataStructure stringStructure = new StringStructure();
 
             var sw = new Stopwatch();
             sw.Start();
@@ -26,7 +26,7 @@ namespace Altium
             File.WriteAllLines(Config.DestinationFileName,
                 File.ReadLines(Config.SourceFileName)
                     .Select(ReadProgress())
-                    .Sorted((int)Config.ChunkFileSize, comparer)
+                    .Sorted((int)Config.ChunkFileSize, stringStructure.Comparer)
                     .Select(WriteProgress()));
 
             sw.Stop();

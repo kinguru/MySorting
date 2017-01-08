@@ -1,4 +1,0 @@
-C:\projects\altium.test\Config\bin\Release\Config.dll
-C:\projects\altium.test\Config\bin\Release\Config.pdb
-C:\projects\altium.test\Config\obj\Release\Config.dll
-C:\projects\altium.test\Config\obj\Release\Config.pdb

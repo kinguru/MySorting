@@ -24,6 +24,7 @@ namespace Altium
         public const long FileSizeToGenerate = 1000L * 1000000;
 
         // chunk file size to be able to fit in memory, bytes
+        // TODO: determine available memory automatically and manage chunk size automatically
         public static long ChunkFileSize = 100L * 1000000;
 
         // number of files to be written to disk simultaneously
