@@ -85,6 +85,7 @@ namespace Altium
 
                 if (!files[currentFileIndex].Lines.MoveNext())
                 {
+                    File.Delete(files[currentFileIndex].File);
                     files.RemoveAt(currentFileIndex);
                 }
 

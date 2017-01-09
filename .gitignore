@@ -3,3 +3,11 @@
 ################################################################################
 
 /Config/bin
+/Config/obj
+/DataContract/bin
+/DataContract/obj
+/Generator/bin
+/Generator/obj
+/Sorter/bin
+/Sorter/obj
+/.vs
